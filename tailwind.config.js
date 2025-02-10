@@ -33,11 +33,11 @@ module.exports = {
         Sora: ["Sora", "sans-serif"],
         Outfit: ["Outfit", "sans-serif"],
         body: ["Inter", "sans-serif"],
-        FontAwesome: ["Font Awesome 6 Pro"]
+        FontAwesome: ["Font Awesome 6 Pro"],
       },
 
       colors: {
-        ColorDark: "#191919",
+        ColorDark: "#272838",
         ColorBlack: "#0A102F",
         ColorBlue: "#3147FF",
         ColorOffWhite: "#FAF9F5",
@@ -57,6 +57,7 @@ module.exports = {
         ColorCaribbeanGreen: "#15CF92",
         ColorMidnightMoss: "#010D09",
         ColorHoneySuckle: "#E9FF97",
+        ColorRed: "#CE2941",
       },
     },
   },

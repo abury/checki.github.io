@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checki - Check your creative assets in Slack</title>
+    <meta name="description" content="AIMass Tailwind based SASS Template" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+    <!-- Icon Font -->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/iconfonts/font-awesome/stylesheet.css"
+    />
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/webfonts/inter/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fonts/webfonts/plus-jakarta-sans/stylesheet.css"
+    />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+  </head>
+
+  <body>
+    <div class="page-wrapper relative z-[1] bg-white">
+      <!--...::: Header Start :::... -->
+      <header
+        class="site-header site-header--absolute is--white py-3"
+        id="sticky-menu"
+      >
+        <div class="container-default">
+          <div class="flex items-center justify-between gap-x-8">
+            <!-- Header Logo -->
+            <a href="index.html" class="">
+              <img
+                src="assets/img/logo.png"
+                alt="Masco"
+                width="109"
+                height="24"
+              />
+            </a>
+            <!-- Header Logo -->
+
+            <!-- Header Navigation -->
+            <div class="menu-block-wrapper">
+              <div class="menu-overlay"></div>
+              <nav class="menu-block" id="append-menu-header">
+                <div class="mobile-menu-head">
+                  <div class="go-back">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </div>
+                  <div class="current-menu-title"></div>
+                  <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="site-menu-main">
+                  <li class="nav-item nav-item-has-children">
+                    <a href="index.html" class="nav-link-item drop-trigger"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="#section-features"
+                      class="nav-link-item drop-trigger"
+                      >Features</a
+                    >
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="#section-about" class="nav-link-item drop-trigger"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="#section-pricing"
+                      class="nav-link-item drop-trigger"
+                      >Pricing</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Header Navigation -->
+
+            <!-- Header User Event -->
+            <div class="flex items-center gap-6">
+              <!-- <a href="login.html" class="btn-text hidden hover:text-ColorPurple sm:inline-block">Login</a> -->
+              <a
+                href="#"
+                class="btn-text hidden hover:text-ColorPurple sm:inline-block"
+                >Coming Soon</a
+              >
+              <!-- <a href="signup.html" class="btn is-black btn-animation group hidden rounded sm:inline-block"><span>Sign up free</span></a> -->
+              <!-- Responsive Offcanvas Menu Button -->
+              <div class="block lg:hidden">
+                <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+            <!-- Header User Event -->
+          </div>
+        </div>
+      </header>
+      <!--...::: Header End :::... -->
+
+      <main class="main-wrapper relative overflow-hidden">
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta pt-28">
+          <!-- Section Background -->
+          <div class="relative bg-ColorRed">
+            <!-- Section Space -->
+            <div class="py-[60px] lg:py-20 xl:py-[100px]">
+              <!-- Section Container -->
+              <div class="container-default">
+                <!-- Section Content Wrapper -->
+                <div class="jos mb-[50px]">
+                  <!-- Section Content Block -->
+                  <div class="mx-auto max-w-[700px]">
+                    <h2 class="text-center text-white">Privacy Policy</h2>
+                  </div>
+                  <!-- Section Content Block -->
+                </div>
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+
+            <!-- Newsletter Shape 1 -->
+            <img
+              src="assets/img/elements/flower-shape-1.svg"
+              alt="flower-shape-1"
+              width="92"
+              height="116"
+              class="absolute left-[152px] top-[44px] hidden md:block"
+            />
+            <!-- Newsletter Shape 2 -->
+            <img
+              src="assets/img/elements/flower-shape-2.svg"
+              alt="flower-shape-2"
+              width="129"
+              height="164"
+              class="absolute bottom-0 right-[57px] hidden md:block"
+            />
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+
+        <!-- Privacy Policy Content Section -->
+        <section class="section-privacy-content py-16 lg:py-20">
+          <div class="container-default">
+            <div class="mx-auto max-w-[900px]">
+              <!-- Last Updated -->
+              <div class="mb-8 text-sm text-gray-600">
+                Last Updated: March 20, 2024
+              </div>
+
+              <!-- Policy Content -->
+              <div class="space-y-8">
+                <!-- Introduction -->
+                <div class="policy-section">
+                  <h3 class="mb-4 text-xl font-semibold">1. Introduction</h3>
+                  <div class="prose max-w-none text-gray-700">
+                    <p>
+                      Welcome to Checki. We respect your privacy and are
+                      committed to protecting your personal data. This privacy
+                      policy explains how we collect, use, and safeguard your
+                      information when you use our Slack integration service.
+                    </p>
+                    <p>
+                      By using Checki, you agree to the collection and use of
+                      information in accordance with this policy.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Information We Collect -->
+                <div class="policy-section">
+                  <h3 class="mb-4 text-xl font-semibold">
+                    2. Information We Collect
+                  </h3>
+                  <div class="prose max-w-none text-gray-700">
+                    <p>
+                      We collect several types of information for various
+                      purposes:
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>
+                        Slack workspace information and authentication tokens
+                      </li>
+                      <li>
+                        User profile information (name, email, workspace role)
+                      </li>
+                      <li>Usage data and interaction with our service</li>
+                      <li>
+                        Content of messages and files shared through our service
+                      </li>
+                      <li>
+                        Technical data such as IP address and browser
+                        information
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- How We Use Your Information -->
+                <div class="policy-section">
+                  <h3 class="mb-4 text-xl font-semibold">
+                    3. How We Use Your Information
+                  </h3>
+                  <div class="prose max-w-none text-gray-700">
+                    <p>We use the collected information for:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Providing and maintaining our service</li>
+                      <li>Notifying you about changes to our service</li>
+                      <li>Providing customer support</li>
+                      <li>Analyzing usage to improve our service</li>
+                      <li>Detecting and preventing technical issues</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Information Sharing -->
+                <div class="policy-section">
+                  <h3 class="mb-4 text-xl font-semibold">
+                    4. Information Sharing
+                  </h3>
+                  <div class="prose max-w-none text-gray-700">
+                    <p>
+                      We do not sell your personal information. We may share
+                      your information with:
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>
+                        Service providers who assist in operating our service
+                      </li>
+                      <li>Law enforcement when required by law</li>
+                      <li>Business partners with your consent</li>
+                    </ul>
+                    <p>
+                      All third parties are required to respect the security of
+                      your personal data and treat it according to the law.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Your Rights -->
+                <div class="policy-section">
+                  <h3 class="mb-4 text-xl font-semibold">5. Your Rights</h3>
+                  <div class="prose max-w-none text-gray-700">
+                    <p>You have the right to:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Access your personal data</li>
+                      <li>Request correction of your personal data</li>
+                      <li>Request deletion of your personal data</li>
+                      <li>Object to processing of your personal data</li>
+                      <li>
+                        Request restriction of processing your personal data
+                      </li>
+                      <li>Request transfer of your personal data</li>
+                      <li>Withdraw consent at any time</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="policy-section">
+                  <h3 class="mb-4 text-xl font-semibold">
+                    6. Contact Information
+                  </h3>
+                  <div class="prose max-w-none text-gray-700">
+                    <p>
+                      If you have any questions about this Privacy Policy,
+                      please contact us:
+                    </p>
+                    <ul class="list-none space-y-2">
+                      <li>Email: checki@aronbury.com</li>
+                      <li>Company: Sonder Digital PTY LTD</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Privacy Policy Content Section End -->
+      </main>
+
+      <!--...::: Footer Section Start :::... -->
+      <footer class="section-footer">
+        <div class="bg-white">
+          <!-- Footer Area Center -->
+          <div class="text-ColorBlack">
+            <!-- Footer Center Spacing -->
+            <div class="py-[60px] lg:py-20">
+              <!-- Section Container -->
+              <div class="container-default">
+                <!-- Footer Widget List -->
+                <div
+                  class="grid gap-x-4 lg:gap-x-8 gap-y-10 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-[2fr_1fr_1fr] xl:gap-x-12"
+                >
+                  <!-- Footer Widget Item -->
+                  <div
+                    class="flex flex-col gap-y-7 md:col-span-4 lg:col-span-1"
+                  >
+                    <!-- Footer Logo -->
+                    <a href="index.html">
+                      <img
+                        src="assets/img/logo.png"
+                        alt="Masco"
+                        width="109"
+                        height="24"
+                      />
+                    </a>
+                    <!-- Footer Content -->
+                    <div>
+                      <!-- Footer About Text -->
+                      <div class="lg:max-w-[320px]">
+                        Easily, quickly check your creative assets in Slack.
+                        Built with ❤️ by Sonder Digital PTY LTD
+                      </div>
+                      <!-- Footer Mail -->
+                      <a
+                        href="mailto:yourdemo@email.com"
+                        class="my-6 block underline-offset-4 transition-all duration-300 hover:underline"
+                        >checki@aronbury.com</a
+                      >
+                      <!-- Footer Social Link -->
+                      <div class="flex flex-wrap gap-5">
+                        <a
+                          href="https://twitter.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white"
+                          aria-label="twitter"
+                        >
+                          <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white"
+                          aria-label="facebook"
+                        >
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a
+                          href="https://www.instagram.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white"
+                          aria-label="instagram"
+                        >
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a
+                          href="https://www.github.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white"
+                          aria-label="github"
+                        >
+                          <i class="fa-brands fa-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Footer Content -->
+                  </div>
+                  <!-- Footer Widget Item -->
+
+                  <!-- Footer Widget Item -->
+                  <div
+                    class="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1"
+                  >
+                    <!-- Footer Title -->
+                    <div class="text-xl font-semibold capitalize">
+                      Resources
+                    </div>
+                    <!-- Footer Title -->
+
+                    <!-- Footer Navbar -->
+                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                      <li>
+                        <a
+                          href="mailto:checki@aronbury.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                          >support</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.getchecki.com/privacy"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                          >Privacy policy</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.getchecki.com/terms"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                          >Terms & Conditions</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://app.getchecki.com/signup"
+                          class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                          >Signup</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://app.getchecki.com/login"
+                          class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                          >Login</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Footer Widget Item -->
+                </div>
+                <!-- Footer Widget List -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Footer Center Spacing -->
+          </div>
+          <!-- Footer Area Center -->
+          <div class="horizontal-line bg-ColorBlack"></div>
+          <!-- Footer Bottom -->
+          <div>
+            <!-- Footer Bottom Spacing -->
+            <div class="py-[18px]">
+              <!-- Section Container -->
+              <div class="container-default">
+                <div class="text-center">
+                  &copy; Copyright 2025, All Rights Reserved by Sonder Digital
+                  PTY LTD
+                </div>
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Footer Bottom Spacing -->
+          </div>
+          <!-- Footer Bottom -->
+        </div>
+      </footer>
+      <!--...::: Footer Section End :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
